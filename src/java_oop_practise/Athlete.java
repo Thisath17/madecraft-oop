@@ -22,6 +22,8 @@ public class Athlete {
     public Athlete(String name, int speed){
         this.name = name;
         this.speed = speed;
+        runnerInRace++;
+        this.number = runnerInRace;
     }
         
     public void setmarathonLocation(String marathonLocation){
@@ -30,7 +32,11 @@ public class Athlete {
             
     @Override
     public String toString(){
-        return "Athlete "+name+" is running at "+speed+" mile per hour at "+marathonLocation ;
+        return "Athlete "+name+" is running at "+speed+" mile per hour at "+marathonLocation+ " - "+number ;
+    }
+    
+    public static int getRunnerInRace(){
+        return runnerInRace;
     }
     
 }
