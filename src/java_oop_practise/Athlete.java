@@ -13,8 +13,11 @@ public class Athlete {
     
     private String name;
     private int speed;
-    private String marathonLocation;
-
+    private static String marathonLocation;
+    private int number;
+    private static int runnerInRace;
+    
+    
     
     public Athlete(String name, int speed){
         this.name = name;

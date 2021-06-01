@@ -16,7 +16,7 @@ public class Marathon {
         Athlete athlete2 = new Athlete("Kalum", 10);
         
         athlete1.setmarathonLocation("Kinigama");
-        athlete2.setmarathonLocation("Kinigama");
+        athlete2.setmarathonLocation("Bandarawela");
         
         System.out.println(athlete1);
         System.out.println(athlete2);
