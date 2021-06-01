@@ -11,4 +11,17 @@ package java_oop_practise;
  */
 public class Marathon {
     
+    public static void main(String[] args){
+        Athlete athlete1 = new Athlete("Rivija", 20);
+        Athlete athlete2 = new Athlete("Kalum", 10);
+        
+        athlete1.setmarathonLocation("Kinigama");
+        athlete2.setmarathonLocation("Kinigama");
+        
+        System.out.println(athlete1);
+        System.out.println(athlete2);
+        
+        
+        
+    }
 }

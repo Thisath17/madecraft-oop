@@ -27,7 +27,7 @@ public class Athlete {
             
     @Override
     public String toString(){
-        return "Athlete "+name+" is running at "+speed+" mile per hour....." ;
+        return "Athlete "+name+" is running at "+speed+" mile per hour at "+marathonLocation ;
     }
     
 }
