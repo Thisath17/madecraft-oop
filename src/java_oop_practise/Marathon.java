@@ -21,6 +21,7 @@ public class Marathon {
         System.out.println(athlete1);
         System.out.println(athlete2);
         
+        System.out.println("Runners in the rase: "+Athlete.getRunnerInRace());
         
         
     }
